@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(rgb(110, 234, 238), rgb(14, 46, 142));
+
+    
+}
+
+.todo{
+    /* background-color: rgb(223, 147, 172); */
+    height: 500px;
+    width: 800px;
+    border: none;
+    overflow-y: auto;
+    margin: 40px auto;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inputP{
+    height: 70px;
+    border: none;
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    
+}
+.inputT{
+    height: 100%;
+    width: 80%;
+    border: none;
+    font-size: 40px;
+    outline: none;
+    padding-left: 20px;
+    color: rgb(10, 39, 102);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.addbtn{
+    width: 20%;
+    height: 100%;
+    background:linear-gradient(rgb(233, 221, 231),rgb(161, 233, 253)) ;
+    font-size: 30px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.listP{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-left: 20px;
+    align-items: center;
+    border: 4px solid  rgb(182, 240, 143);
+    border-radius: 25px;
+    height: 70px;
+    background-color: rgb(246, 248, 151);
+   
+}
+.listT{
+    font-size: 40px;
+    color: rgb(10,39, 108);
+   
+}
+.deletebtn{
+    width: 20%;
+    height: 100%;
+    background:linear-gradient(rgb(219, 181, 225), rgb(167, 231, 231)) ;
+    font-size: 30px;
+    border: none;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+.completed{
+    background-color: rgb(182, 240, 143);
+}
